@@ -1,0 +1,189 @@
+// Поместите настраиваемые сочетания клавиш в этот файл, чтобы перезаписать клавиши по умолчанию.
+[
+    {
+        "key": "shift+cmd+up",
+        "command": "editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+up",
+        "command": "-editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "-editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+cmd+f",
+        "command": "editor.action.startFindReplaceAction"
+    },
+    {
+        "key": "alt+cmd+f",
+        "command": "-editor.action.startFindReplaceAction"
+    },
+    {
+        "key": "cmd+j c",
+        "command": "extension.addDocComments"
+    },
+    {
+        "key": "cmd+k f",
+        "command": "editor.action.codeAction",
+        "args": {
+            "kind": "source.fixAll.tslint",
+            "apply": "first"
+        }
+    },
+    {
+        "key": "shift+ctrl+e",
+        "command": "editor.action.codeAction",
+        "args": {
+            "kind": "refactor.extract",
+            "preferred": true
+        }
+    },
+    {
+        "key": "shift+alt+2",
+        "command": "workbench.action.closePanel"
+    },
+    {
+        "key": "shift+alt+1",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
+        "key": "cmd+2",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "-workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "cmd+1",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "cmd+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "down",
+        "command": "cursorDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "-cursorDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "-cursorDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "cursorLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-cursorLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "cursorRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-cursorRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+h",
+        "command": "deleteLeft",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "-deleteLeft",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "-list.focusDown",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "down",
+        "command": "-cursorDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "-deleteAllRight",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "cursorUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-cursorUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "list.focusUp",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-list.focusUp",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "list.focusDown",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "down",
+        "command": "-list.focusDown",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "cmd+down",
+        "command": "list.select",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "cmd+down",
+        "command": "-list.select",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "down",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "cmd+down",
+        "command": "-selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    }
+]

@@ -1,0 +1,88 @@
+{
+  "editor.fontSize": 16,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.fontFamily": "FiraCode-Retina",
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "javascriptreact",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    }
+  ],
+  "editor.formatOnSave": false,
+  "vetur.validation.template": false,
+  "sasslint.run": "onSave",
+  "sasslint.enable": true,
+  "explorer.confirmDelete": false,
+  "window.zoomLevel": 0,
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html"
+  },
+  "breadcrumbs.enabled": false,
+  "editor.fontFamily": "FiraCode-Retina",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "500",
+  "python.dataScience.ignoreVscodeTheme": true,
+  "workbench.colorTheme": "Ayu Mirage",
+  "todo-tree.tags": [
+    "TODO",
+    "FIXME",
+    "FIX IT THEN MAINNET LAUNCH",
+    "ds"
+  ],
+  "todohighlight.isEnable": true,
+  "tslint.packageManager": "yarn",
+  "javascript.validate.enable": false,
+  "sasslint.packageManager": "yarn",
+  "npm.packageManager": "yarn",
+  "eslint.packageManager": "yarn",
+  "workbench.activityBar.visible": true,
+  "workbench.iconTheme": "vscode-icons",
+  "todo-tree.general.tags": [
+    "TODO",
+    "FIXME",
+    "FIX IT THEN MAINNET LAUNCH",
+    "ds"
+  ],
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "html-css-class-completion.enableScssFindUsage": true,
+  "html-css-class-completion.enableEmmetSupport": true,
+  "emmet.triggerExpansionOnTab": true,
+  "autoDarkMode.darkTheme": "Ayu Mirage",
+  "autoDarkMode.lightTheme": "Eva Light",
+  "explorer.decorations.colors": false,
+  "workbench.editor.showTabs": false,
+  "haskell.hlint.executablePath": "hlint"
+}
